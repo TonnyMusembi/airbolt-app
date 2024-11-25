@@ -2,7 +2,8 @@
 import { ref } from "vue";
 import { useRouter } from "vue-router";
 import { HeartIcon, StarIcon } from "@heroicons/vue/24/outline";
-
+// import Form from "./Form.vue";
+import ImagesSlider from "./ImagesSlider.vue";
 const props = {
   id: {
     type: [String, Number],
@@ -263,9 +264,12 @@ const properties = ref([
     reviews: 203,
   },
 ]);
+console.log(properties);
 </script>
 
 <template>
+  <ImagesSlider />
+  <!-- <Form /> -->
   <div class="container mx-auto px-4">
     <!-- Responsive Grid -->
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

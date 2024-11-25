@@ -1,4 +1,5 @@
 <script setup>
+// import Banner from "./Banner.vue";
 import {
   MagnifyingGlassIcon,
   UserIcon,
@@ -8,6 +9,7 @@ import {
 </script>
 
 <template>
+  <!-- <Banner /> -->
   <header class="sticky top-0 z-50 bg-white shadow-lg">
     <div class="container mx-auto px-4 py-4 flex items-center justify-between">
       <!-- Logo -->

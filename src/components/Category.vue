@@ -13,6 +13,11 @@
       </div>
     </div>
   </div>
+  <div class="flex justify-center space-x-2">
+    <div>01</div>
+    <div>02</div>
+    <div>03</div>
+  </div>
 </template>
 
 <script setup>
