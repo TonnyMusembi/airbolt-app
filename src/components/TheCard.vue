@@ -264,7 +264,7 @@ const properties = ref([
     reviews: 203,
   },
 ]);
-console.log(properties);
+console.log(properties)
 </script>
 
 <template>

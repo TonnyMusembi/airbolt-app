@@ -1,5 +1,6 @@
 <script setup>
 import TheNavBar from "@/components/TheNavBar.vue";
+import Footer from "../components/Footer.vue";
 import Category from "../components/Category.vue";
 </script>
 
@@ -10,5 +11,6 @@ import Category from "../components/Category.vue";
     <div class="p-2">
       <RouterView />
     </div>
+    <Footer />
   </div>
 </template>

@@ -11,6 +11,9 @@ importers:
       '@heroicons/vue':
         specifier: ^2.0.18
         version: 2.2.0(vue@3.5.13(typescript@5.6.3))
+      '@tawk.to/tawk-messenger-vue-3':
+        specifier: ^1.0.3
+        version: 1.0.3(typescript@5.6.3)
       '@vueuse/core':
         specifier: ^11.3.0
         version: 11.3.0(vue@3.5.13(typescript@5.6.3))
@@ -419,6 +422,9 @@ packages:
     resolution: {integrity: sha512-vliZLrDmYKyaUoMzEbMTg2JkerfBjn03KmAw9CykO0Zzkzoyd7o3iZNam/TpyWNjNT+Cz2iO3P9Smv2wgrR+Eg==}
     cpu: [x64]
     os: [win32]
+
+  '@tawk.to/tawk-messenger-vue-3@1.0.3':
+    resolution: {integrity: sha512-KqgJnRvT0XhFOBx1Udevq6GvkrQps2us5ZiilVKuyW1GsaBGi6C8nZEIc13xj/MTnZJjZrfRhNHpiw0i+5Hqhw==}
 
   '@types/eslint@8.56.12':
     resolution: {integrity: sha512-03ruubjWyOHlmljCVoxSuNDdmfZDzsrrz0P2LeJsOXr+ZwFQ+0yQIwNCwt/GYhV7Z31fgtXJTAEs+FYlEL851g==}
@@ -1705,6 +1711,12 @@ snapshots:
 
   '@rollup/rollup-win32-x64-msvc@4.27.3':
     optional: true
+
+  '@tawk.to/tawk-messenger-vue-3@1.0.3(typescript@5.6.3)':
+    dependencies:
+      vue: 3.5.13(typescript@5.6.3)
+    transitivePeerDependencies:
+      - typescript
 
   '@types/eslint@8.56.12':
     dependencies:
