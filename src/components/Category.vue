@@ -1,21 +1,3 @@
-<template>
-  <div class="border-b">
-    <div class="container mx-auto px-4">
-      <div class="flex space-x-8 overflow-x-auto pb-4 pt-5 scrollbar-hide">
-        <div
-          v-for="category in categories"
-          :key="category.label"
-          class="flex flex-col items-center space-y-2 min-w-fit cursor-pointer text-gray-500 hover:text-gray-900 hover:border-b-2 hover:border-gray-900 transition-colors duration-200"
-        >
-          <component :is="category.icon" class="h-6 w-6" />
-          <span class="text-xs font-medium">{{ category.label }}</span>
-        </div>
-      </div>
-    </div>
-  </div>
- 
-</template>
-
 <script setup>
 import { ref } from "vue";
 
@@ -44,6 +26,22 @@ const categories = ref([
   { label: "Lofts", icon: Warehouse },
 ]);
 </script>
+<template>
+  <div class="border-b">
+    <div class="container mx-auto px-4">
+      <div class="flex space-x-8 overflow-x-auto pb-4 pt-5 scrollbar-hide">
+        <div
+          v-for="category in categories"
+          :key="category.label"
+          class="flex flex-col items-center space-y-2 min-w-fit cursor-pointer text-gray-500 hover:text-gray-900 hover:border-b-2 hover:border-gray-900 transition-colors duration-200"
+        >
+          <component :is="category.icon" class="h-6 w-6" />
+          <span class="text-xs font-medium">{{ category.label }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
 
 <style>
 /* Hides scrollbar visually while still allowing scrolling */
