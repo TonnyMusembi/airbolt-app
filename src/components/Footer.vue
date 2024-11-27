@@ -43,7 +43,7 @@ const currentYear = new Date().getFullYear();
       <span
         class="block text-sm text-gray-500 sm:text-center dark:text-gray-400"
         >© {{ currentYear }}
-        <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>.
+        <a href="https://flowbite.com/" class="hover:underline">Ton bolt™</a>.
         All Rights Reserved.</span
       >
     </div>

@@ -1,9 +1,21 @@
 <script setup>
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 import { useRouter } from "vue-router";
 import { HeartIcon, StarIcon } from "@heroicons/vue/24/outline";
 // import Form from "./Form.vue";
 import ImagesSlider from "./ImagesSlider.vue";
+import modalImage from "../assets/images/vite2.png";
+
+import ImageModal from "./ImageModal.vue";
+
+const imageSrc = ref(modalImage);
+console.log(imageSrc.value);
+const showModal = ref(false);
+
+onMounted(() => {
+  // Automatically open modal when the page is loaded
+  showModal.value = true;
+});
 const props = {
   id: {
     type: [String, Number],
@@ -264,7 +276,7 @@ const properties = ref([
     reviews: 203,
   },
 ]);
-console.log(properties)
+console.log(properties);
 </script>
 
 <template>
@@ -311,4 +323,5 @@ console.log(properties)
       </div>
     </div>
   </div>
+  <ImageModal v-if="showModal" :imageSrc="imageSrc" />
 </template>

@@ -10,7 +10,6 @@ import {
 </script>
 
 <template>
-  <ThemeToggle />
   <!-- <Banner /> -->
   <header class="sticky top-0 z-50 bg-white shadow-lg dark:bg-gray-900">
     <div class="container mx-auto px-4 py-4 flex items-center justify-between">
@@ -49,11 +48,13 @@ import {
       <!-- Action Buttons -->
       <div class="flex items-center gap-4">
         <button
-          class="hidden md:block hover:bg-gray-100 px-4 py-2 rounded-full text-sm font-medium dark:text-white"
+          class="hidden md:block hover:bg-gray-100 px-4 py-2 rounded-full text-sm font-medium dark:text-white dark:hover:bg-gray-700"
         >
           Become a Host
         </button>
-        <button class="hover:bg-gray-100 p-2 rounded-full">
+        <button
+          class="hover:bg-gray-100 p-2 rounded-full dark:hover:bg-gray-700 dark:bg-white"
+        >
           <HomeIcon class="h-5 w-5" />
         </button>
         <div
@@ -62,6 +63,7 @@ import {
           <Bars3Icon class="h-5 w-5 mr-2" />
           <UserIcon class="h-5 w-5 text-gray-500" />
         </div>
+        <ThemeToggle />
       </div>
     </div>
   </header>
