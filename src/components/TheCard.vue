@@ -4,12 +4,11 @@ import { useRouter } from "vue-router";
 import { HeartIcon, StarIcon } from "@heroicons/vue/24/outline";
 // import Form from "./Form.vue";
 import ImagesSlider from "./ImagesSlider.vue";
-import modalImage from "../assets/images/vite2.png";
+import Vite2 from "../assets/images/vite2.png";
 
 import ImageModal from "./ImageModal.vue";
 
-const imageSrc = ref(modalImage);
-console.log(imageSrc.value);
+const imageSrc = ref(Vite2);
 const showModal = ref(false);
 
 onMounted(() => {
@@ -277,6 +276,8 @@ const properties = ref([
   },
 ]);
 console.log(properties);
+
+
 </script>
 
 <template>

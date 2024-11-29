@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Nav from "@/views/Nav.vue";
-import Card from "@/views/Card.vue";
 
 const routes = [
   {
@@ -10,10 +9,15 @@ const routes = [
       {
         path: "/",
         name: "card",
-        component: Card,
+        component: () => import("@/views/Card.vue"),
         meta: { title: "Card", requiresAuth: false },
       },
     ],
+  },
+  {
+    path: "/:pathMatch(.*)*",
+    name: "NotFound",
+    component: () => import("@/views/NotFound.vue"),
   },
 ];
 
