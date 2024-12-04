@@ -276,8 +276,6 @@ const properties = ref([
   },
 ]);
 console.log(properties);
-
-
 </script>
 
 <template>

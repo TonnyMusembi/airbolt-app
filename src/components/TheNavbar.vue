@@ -61,7 +61,7 @@ import {
           class="flex items-center border rounded-full p-2 hover:shadow-md cursor-pointer"
         >
           <Bars3Icon class="h-5 w-5 mr-2" />
-          <UserIcon class="h-5 w-5 text-gray-500" />
+          <UserIcon class="size-5 text-gray-500" />
         </div>
         <ThemeToggle />
       </div>

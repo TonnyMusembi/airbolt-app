@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@heroicons/vue": "^2.0.18",
+    "@kyvg/vue3-notification": "^3.4.1",
     "@tawk.to/tawk-messenger-vue-3": "^1.0.3",
     "@vueuse/core": "^11.3.0",
     "lucide-vue": "^0.460.0",
