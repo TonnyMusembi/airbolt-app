@@ -1,3 +1,19 @@
+<script setup>
+import { ref } from "vue";
+
+const props = defineProps({
+  imageSrc: {
+    type: String,
+    required: true,
+  },
+});
+
+const isVisible = ref(true);
+
+const closeModal = () => {
+  isVisible.value = false;
+};
+</script>
 <template>
   <div
     v-if="isVisible"
@@ -15,23 +31,6 @@
     </div>
   </div>
 </template>
-
-<script setup>
-import { ref } from "vue";
-
-const props = defineProps({
-  imageSrc: {
-    type: String,
-    required: true,
-  },
-});
-
-const isVisible = ref(true);
-
-const closeModal = () => {
-  isVisible.value = false;
-};
-</script>
 
 <style scoped>
 /* Optional additional styling */
