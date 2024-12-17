@@ -31,7 +31,3 @@ const closeModal = () => {
     </div>
   </div>
 </template>
-
-<style scoped>
-/* Optional additional styling */
-</style>

@@ -1,11 +1,14 @@
 <script setup>
 import { ref, onMounted } from "vue";
 import { useRouter } from "vue-router";
+
+// import Date from "./Date.vue";
+
 import { HeartIcon, StarIcon } from "@heroicons/vue/24/outline";
 // import Form from "./Form.vue";
 import ImagesSlider from "./ImagesSlider.vue";
 import Vite2 from "../assets/images/vite2.png";
-
+import Pop from "./Pop.vue";
 import ImageModal from "./ImageModal.vue";
 
 const imageSrc = ref(Vite2);
@@ -279,6 +282,8 @@ console.log(properties);
 </script>
 
 <template>
+  <!-- <Date class="p-4" /> -->
+  <Pop />
   <ImagesSlider />
   <!-- <Form /> -->
   <div class="container mx-auto px-4">
