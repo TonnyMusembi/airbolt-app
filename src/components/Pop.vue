@@ -1,5 +1,4 @@
-<!-- Popover.vue -->
-<script setup lang="ts">
+<script setup>
 import {
   PopoverArrow,
   PopoverClose,
