@@ -1,6 +1,9 @@
 <script setup>
 import { ref, onMounted } from "vue";
 import { useRouter } from "vue-router";
+import NoData from "./NoData.vue";
+// import Loading from "./Loading.vue";
+import TheDrawer from "./TheDrawer.vue";
 
 // import Date from "./Date.vue";
 
@@ -10,6 +13,7 @@ import ImagesSlider from "./ImagesSlider.vue";
 import Vite2 from "../assets/images/vite2.png";
 import Pop from "./Pop.vue";
 import ImageModal from "./ImageModal.vue";
+// import { Loader } from "lucide-vue";
 
 const imageSrc = ref(Vite2);
 const showModal = ref(false);
@@ -328,4 +332,7 @@ console.log(properties);
     </div>
   </div>
   <ImageModal v-if="showModal" :imageSrc="imageSrc" />
+  <NoData />
+  <!-- <Loading /> -->
+  <TheDrawer />
 </template>
