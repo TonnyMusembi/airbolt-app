@@ -4,8 +4,10 @@ import { useRouter } from "vue-router";
 import NoData from "./NoData.vue";
 // import Loading from "./Loading.vue";
 import TheDrawer from "./TheDrawer.vue";
-
+import Chart from "./Chart.vue";
 // import Date from "./Date.vue";
+
+// import navb from "./navb.vue";
 
 import { HeartIcon, StarIcon } from "@heroicons/vue/24/outline";
 // import Form from "./Form.vue";
@@ -287,6 +289,7 @@ console.log(properties);
 
 <template>
   <!-- <Date class="p-4" /> -->
+   <!-- <navb /> -->
   <Pop />
   <ImagesSlider />
   <!-- <Form /> -->
@@ -334,5 +337,6 @@ console.log(properties);
   <ImageModal v-if="showModal" :imageSrc="imageSrc" />
   <NoData />
   <!-- <Loading /> -->
-  <TheDrawer />
+  <!-- <TheDrawer /> -->
+  <Chart />
 </template>
