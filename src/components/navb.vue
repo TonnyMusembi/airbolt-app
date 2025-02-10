@@ -30,7 +30,7 @@
       <!-- Right Section: Icons -->
       <div class="flex items-center space-x-4">
         <button
-          class="relative focus:outline-none text-gray-400 hover:text-gray-300 transition duration-200"
+          class="relative focus:outline-hidden text-gray-400 hover:text-gray-300 transition duration-200"
         >
           <!-- Notification Icon -->
           <svg
@@ -54,7 +54,7 @@
         </button>
 
         <button
-          class="focus:outline-none text-gray-400 hover:text-gray-300 transition duration-200"
+          class="focus:outline-hidden text-gray-400 hover:text-gray-300 transition duration-200"
         >
           <!-- User Profile Icon -->
           <svg
@@ -75,7 +75,7 @@
 
         <!-- Mobile Menu Button (Visible only on small screens) -->
         <button
-          class="md:hidden focus:outline-none text-gray-400 hover:text-gray-300 transition duration-200"
+          class="md:hidden focus:outline-hidden text-gray-400 hover:text-gray-300 transition duration-200"
         >
           <!-- Hamburger Icon -->
           <svg

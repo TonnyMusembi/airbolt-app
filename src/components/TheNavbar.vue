@@ -36,7 +36,7 @@ import {
           <input
             type="text"
             placeholder="Start your search"
-            class="flex-1 border-none outline-none bg-transparent"
+            class="flex-1 border-none outline-hidden bg-transparent"
           />
           <div class="bg-rose-500 p-2 rounded-full text-white cursor-pointer">
             <MagnifyingGlassIcon class="h-4 w-4" />

@@ -7,7 +7,7 @@
       aria-hidden="true"
     >
       <div
-        class="aspect-[577/310] w-[36.0625rem] bg-gradient-to-r from-[#ff80b5] to-[#9089fc] opacity-30"
+        class="aspect-577/310 w-[36.0625rem] bg-linear-to-r from-[#ff80b5] to-[#9089fc] opacity-30"
         style="
           clip-path: polygon(
             74.8% 41.9%,
@@ -35,7 +35,7 @@
       aria-hidden="true"
     >
       <div
-        class="aspect-[577/310] w-[36.0625rem] bg-gradient-to-r from-[#ff80b5] to-[#9089fc] opacity-30"
+        class="aspect-577/310 w-[36.0625rem] bg-linear-to-r from-[#ff80b5] to-[#9089fc] opacity-30"
         style="
           clip-path: polygon(
             74.8% 41.9%,
@@ -71,7 +71,7 @@
       </p>
       <a
         href="#"
-        class="flex-none rounded-full bg-gray-900 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
+        class="flex-none rounded-full bg-gray-900 px-3.5 py-1 text-sm font-semibold text-white shadow-xs hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
         >Register now <span aria-hidden="true">&rarr;</span></a
       >
     </div>
