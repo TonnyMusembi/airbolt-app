@@ -97,7 +97,7 @@ onMounted(() => {
         :value="formattedDate"
         @click="toggleDatepicker"
         @keydown.escape="closeDatepicker"
-        class="w-full pl-4 pr-10 py-3 leading-none rounded-lg shadow-sm focus:outline-none focus:shadow-outline text-gray-600 font-medium"
+        class="w-full pl-4 pr-10 py-3 leading-none rounded-lg shadow-xs focus:outline-hidden focus:shadow-outline text-gray-600 font-medium"
         placeholder="Select date"
       />
       <div class="absolute top-0 right-0 px-3 py-2">
@@ -118,7 +118,7 @@ onMounted(() => {
       <!-- Datepicker Dropdown -->
       <div
         v-if="showDatepicker"
-        class="bg-white mt-12 rounded-lg shadow p-4 absolute top-0 left-0 z-50 w-full"
+        class="bg-white mt-12 rounded-lg shadow-sm p-4 absolute top-0 left-0 z-50 w-full"
       >
         <div class="flex justify-between items-center mb-2">
           <div>

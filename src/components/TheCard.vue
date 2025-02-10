@@ -14,8 +14,7 @@ import { HeartIcon, StarIcon } from "@heroicons/vue/24/outline";
 import ImagesSlider from "./ImagesSlider.vue";
 import Vite2 from "../assets/images/vite2.png";
 import Pop from "./Pop.vue";
-import ImageModal from "./ImageModal.vue";
-// import { Loader } from "lucide-vue";
+// import ImageModal from "./ImageModal.vue";
 
 const imageSrc = ref(Vite2);
 const showModal = ref(false);
@@ -289,7 +288,7 @@ console.log(properties);
 
 <template>
   <!-- <Date class="p-4" /> -->
-   <!-- <navb /> -->
+  <!-- <navb /> -->
   <Pop />
   <ImagesSlider />
   <!-- <Form /> -->
@@ -334,7 +333,7 @@ console.log(properties);
       </div>
     </div>
   </div>
-  <ImageModal v-if="showModal" :imageSrc="imageSrc" />
+  <!-- <ImageModal v-if="showModal" :imageSrc="imageSrc" /> -->
   <NoData />
   <!-- <Loading /> -->
   <!-- <TheDrawer /> -->
