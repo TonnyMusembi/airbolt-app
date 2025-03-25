@@ -1,4 +1,12 @@
-<script setup></script>
+<script setup>
+import { ref } from "vue";
+const item = ref("test");
+
+const test = () => {
+  console.log(item);
+};
+test();
+</script>
 
 <template>
   <div class="bg-gray-100 rounded-lg shadow-md p-6">

@@ -10,8 +10,8 @@ const data = ref([]);
 onMounted(async () => {
   try {
     const response = await axios.get("http://localhost:8081/summary");
-    data.value = response.data.slice(0, 30); // Get the first 30 days
-
+    data.value = response.data.slice(0, 30);
+    // Get the first 30 days
     const ctx = areaToDraw.value.getContext("2d");
 
     if (chartInstance) {
