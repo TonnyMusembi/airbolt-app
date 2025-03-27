@@ -2,6 +2,7 @@
 import { ref, onMounted } from "vue";
 import { useRouter } from "vue-router";
 import NoData from "./NoData.vue";
+import AutoSelect from "./AutoSelect.vue";
 // import Loading from "./Loading.vue";
 import TheDrawer from "./TheDrawer.vue";
 import Chart from "./Chart.vue";
@@ -338,4 +339,5 @@ console.log(properties);
   <!-- <Loading /> -->
   <!-- <TheDrawer /> -->
   <Chart />
+  <AutoSelect />
 </template>

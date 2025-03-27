@@ -14,6 +14,9 @@ export const useCartStore = defineStore("cart", {
       return state.cartItems.reduce((total, item) => total + item.quantity, 0);
     },
 
+    // Total quantity of the cart
+  
+
     // Total price of the cart
     totalPrice: (state) => {
       return state.cartItems.reduce(
